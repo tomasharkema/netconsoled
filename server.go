@@ -112,7 +112,12 @@ func NewMetrics() (Metrics, *prometheus.Registry) {
 
 	reg := prometheus.NewRegistry()
 	reg.MustRegister(prometheus.NewGoCollector())
-	reg.MustRegister(prometheus.NewProcessCollector(os.Getpid(), ""))
+	reg.MustRegister(prometheus.NewProcessCollector(prometheus.ProcessCollectorOpts{
+		PidFn: func() (int, error) {
+			return os.Getpid(), nil
+		},
+		Namespace: "",
+	}))
 
 	logsRecv := prometheus.NewCounterVec(prometheus.CounterOpts{
 		Namespace: namespace,

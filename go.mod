@@ -1,11 +1,10 @@
-module github.com/tomasharkema/netconsoled
+module github.com/mdlayher/netconsoled
 
 go 1.25.4
 
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/mdlayher/netconsole v0.0.0-20171128223041-f2684a79ce86
-	github.com/mdlayher/netconsoled v0.0.0-20171129215634-65538ebdb4d0
 	github.com/prometheus/client_golang v1.23.2
 	gopkg.in/yaml.v2 v2.4.0
 )

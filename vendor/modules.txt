@@ -16,10 +16,6 @@ github.com/google/go-cmp/cmp/internal/value
 # github.com/mdlayher/netconsole v0.0.0-20171128223041-f2684a79ce86
 ## explicit
 github.com/mdlayher/netconsole
-# github.com/mdlayher/netconsoled v0.0.0-20171129215634-65538ebdb4d0
-## explicit
-github.com/mdlayher/netconsoled
-github.com/mdlayher/netconsoled/internal/config
 # github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
 ## explicit
 github.com/munnerz/goautoneg

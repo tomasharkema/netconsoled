@@ -17,8 +17,6 @@ github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/mdlayher/netconsole v0.0.0-20171128223041-f2684a79ce86 h1:sHDsaOK0pMjyYSj20Zb5QBRDrf/OlaJWeKdQRkatnUQ=
 github.com/mdlayher/netconsole v0.0.0-20171128223041-f2684a79ce86/go.mod h1:hiQIxwrOzw58i6LHNF1C2jOzmZKT+z4BjusD7vu+2/c=
-github.com/mdlayher/netconsoled v0.0.0-20171129215634-65538ebdb4d0 h1:fvY+UI+CC6eAMARS3XRRmW0629CC78I1HZAU4Qf0rq0=
-github.com/mdlayher/netconsoled v0.0.0-20171129215634-65538ebdb4d0/go.mod h1:o8tm9AjbEIvCBbljT2SAOULF9Uoeoubj2RyqnQfX9w4=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822/go.mod h1:+n7T8mK8HuQTcFwEeznm/DIxMOiR9yIdICNftLE1DvQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
